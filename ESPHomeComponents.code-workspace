@@ -8,6 +8,9 @@
 		},
 		{
 			"path": "../ArduinoJson"
+		},
+		{
+			"path": "../firmware"
 		}
 	],
 	"settings": {
