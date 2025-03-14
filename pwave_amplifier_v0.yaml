@@ -5,7 +5,7 @@ esphome:
   name_add_mac_suffix: true
   project:
     name: m5stack.atom-echo-voice-assistant
-    version: "1.0"
+    version: "24.7.24"
   min_version: 2023.11.1
 
 esp32:

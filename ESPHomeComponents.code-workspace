@@ -14,18 +14,12 @@
 		}
 	],
 	"settings": {
-		"C_Cpp.default.includePath": [
-			"../ArduinoJson",
-			"../ArduinoJson/src",
-			"../esphome"
-		],
 		"files.associations": {
 			"*.embeddedhtml": "html",
 			"memory": "cpp",
 			"iosfwd": "cpp",
 			"xlocbuf": "cpp"
 		},
-		"C_Cpp.codeAnalysis.clangTidy.enabled": false,
 		"[php]": {
 			"editor.defaultFormatter": null
 		},
@@ -36,5 +30,11 @@
 		"python.analysis.extraPaths": [
 			"../esphome"
 		],
+		"clangd.arguments": [
+			"-I../esphome"
+		],
+		"[cpp]": {
+			"editor.defaultFormatter": "xaver.clang-format"
+		},
 	}
 }
